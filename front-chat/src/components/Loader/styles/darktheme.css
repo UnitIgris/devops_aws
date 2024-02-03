@@ -1,0 +1,27 @@
+.dark-theme .loader {
+    background: rgb(0,0,0);
+}
+
+.dark-theme .loader__logo-wrapper::after {
+    background: linear-gradient( 90deg, rgba(0,0,0, .5) 0, rgba(0,0,0, .5) 33.33%, rgba(0,0,0, 0) 44.1%, rgba(0,0,0, 0) 55.8%, rgba(0,0,0, .5) 66.66%, rgba(0,0,0, .5));
+}
+
+.dark-theme .loader__logo {
+    fill: rgb(108, 113, 117);
+}
+
+.dark-theme .loader__progress {
+    background: rgb(42, 47, 50);
+}
+
+.dark-theme .loader__progress::after {
+    background: rgb(29, 155, 240);
+}
+
+.dark-theme .loader__title {
+    color: rgba(241, 241, 242, 0.88);
+}
+
+.dark-theme .loader__desc {
+    color: rgba(241, 241, 242, 0.45)
+}
